@@ -18,6 +18,8 @@
   --btn-bg-green-color: #13ab4e;
   --white-color: #fff;
   --dark-green: #0d7d38;
+  --opacity-green-bg:#13ab4d3f;
+  --input-bg-color:#F7F8FA;
 }
 
 .container {
@@ -462,4 +464,145 @@ main .works .works-field .col:last-child .row ul li input[type="checkbox"]:check
 
 main .works .works-field .col:last-child .row .btn{
     margin-top: 30px;
+}
+
+main .testominal{
+  padding: 20px 0 0 ;
+  background: var(--opacity-green-bg);
+}
+
+main .testominal .testominal_header{
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+main .testominal .testominal_header h1{
+  padding: 20px 0;
+}
+
+main .testominal .testominal_header .text{
+  padding: 0 80px;
+}
+
+main .testominal .testominal-field{
+  position: relative;
+  width: 60%;
+  margin: 30px 0 30px auto;
+  background: var(--white-color);
+}
+
+main .testominal .testominal-field img{
+  position: absolute;
+  left: -10%;
+  width: 20%;
+}
+
+main .testominal .testominal-field .box{
+  position: relative;
+  left: 15%;
+  width: 60%;
+  padding: 30px 0;
+}
+
+main .testominal .testominal-field.d-flex{
+  justify-content: start;
+}
+
+main .testominal .testominal-field .box .card img{
+  position: static;
+  width: 15%;
+}
+
+main .testominal .testominal-field .box .card .card-info{
+  width: 85%;
+}
+
+main .use_service{
+  width: 100%;
+}
+
+main .use_service_field h1{
+  text-align: center;
+  padding: 0 200px;
+}
+
+main .use_service_field .text{
+  text-align: center;
+  padding: 5px 30px;
+}
+main .use_service_field form,
+main .use_service_field form .input{
+  justify-content: center;
+  flex-direction: column;
+  gap: 0;
+}
+main .use_service_field form{
+  gap: 10px;
+  padding: 30px 0;
+}
+main .use_service_field form .input{
+  width: 35%;
+  margin: 0 auto;
+  align-items: start;
+}
+
+main .use_service_field form .input label{
+  /* border: 1px solid; */
+  font-size: 1rem;
+  padding: 5px 0;
+}
+
+main .use_service_field form .input input{
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  background: var(--input-bg-color);
+}
+
+main .use_service_field form .input .btn{
+  width: 100%;
+  border-radius: 5px;
+}
+
+footer{
+  background:  #25322E;
+}
+
+footer p{
+  color: var(--white-color);
+  margin: 10px 0;
+}
+footer .footer-field{
+  padding: 30px 0;
+}
+footer .footer-field img{
+  width: 60%;
+}
+
+footer .footer-field img:last-child{
+  margin: 30px 0 0;
+}
+
+footer .footer-field .row{
+  justify-content: space-around;
+  gap: 0px;
+}
+
+footer .footer-field .row ul li{
+  padding: 10px 0;
+}
+
+footer .footer-field .row ul li a{
+  color: var(--white-color);
+}
+
+footer .footer_author{
+  padding: 5px 0;
+  background: #1C2D29;
+}
+
+footer .footer_author p{
+  font-size: .8rem;
 }
