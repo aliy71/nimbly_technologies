@@ -18,8 +18,8 @@
   --btn-bg-green-color: #13ab4e;
   --white-color: #fff;
   --dark-green: #0d7d38;
-  --opacity-green-bg:#13ab4d3f;
-  --input-bg-color:#F7F8FA;
+  --opacity-green-bg: #13ab4d3f;
+  --input-bg-color: #F7F8FA;
 }
 
 .container {
@@ -377,6 +377,7 @@ main .works .works-field .col:last-child .row ul {
   padding: 0;
   margin: 0;
 }
+
 main .works .works-field .col:last-child .row ul li {
   position: relative;
   padding: 0;
@@ -385,24 +386,30 @@ main .works .works-field .col:last-child .row ul li {
   padding-top: 18px;
   border-top: 1px dotted #dce7eb;
 }
+
 main .works .works-field .col:last-child .row ul li:nth-of-type(1) {
   animation-delay: 0.5s;
 }
+
 main .works .works-field .col:last-child .row ul li:nth-of-type(2) {
   animation-delay: 0.75s;
 }
+
 main .works .works-field .col:last-child .row ul li:nth-of-type(3) {
   animation-delay: 1s;
 }
+
 main .works .works-field .col:last-child .row ul li:last-of-type {
   padding-bottom: 0;
 }
+
 main .works .works-field .col:last-child .row ul li i {
   position: absolute;
   transform: translate(-6px, 0);
   margin-top: 16px;
   right: 0;
 }
+
 main .works .works-field .col:last-child .row ul li i:before,
 main .works .works-field .col:last-child .row ul li i:after {
   content: "";
@@ -411,12 +418,15 @@ main .works .works-field .col:last-child .row ul li i:after {
   width: 3px;
   height: 9px;
 }
+
 main .works .works-field .col:last-child .row ul li i:before {
   transform: translate(-2px, 0) rotate(45deg);
 }
+
 main .works .works-field .col:last-child .row ul li i:after {
   transform: translate(2px, 0) rotate(-45deg);
 }
+
 main .works .works-field .col:last-child .row ul li input[type="checkbox"] {
   position: absolute;
   cursor: pointer;
@@ -425,16 +435,19 @@ main .works .works-field .col:last-child .row ul li input[type="checkbox"] {
   z-index: 1;
   opacity: 0;
 }
-main .works .works-field .col:last-child .row ul li input[type="checkbox"]:checked ~ p {
+
+main .works .works-field .col:last-child .row ul li input[type="checkbox"]:checked~p {
   margin-top: 0;
   max-height: 0;
   opacity: 0;
   transform: translate(0, 50%);
 }
-main .works .works-field .col:last-child .row ul li input[type="checkbox"]:checked ~ i:before {
+
+main .works .works-field .col:last-child .row ul li input[type="checkbox"]:checked~i:before {
   transform: translate(2px, 0) rotate(45deg);
 }
-main .works .works-field .col:last-child .row ul li input[type="checkbox"]:checked ~ i:after {
+
+main .works .works-field .col:last-child .row ul li input[type="checkbox"]:checked~i:after {
   transform: translate(-2px, 0) rotate(-45deg);
 }
 
@@ -444,165 +457,444 @@ main .works .works-field .col:last-child .row ul li input[type="checkbox"]:check
     transform-origin: top center;
     transform: rotateX(-90deg);
   }
+
   5% {
     opacity: 1;
   }
+
   80% {
     transform: rotateX(8deg);
   }
+
   83% {
     transform: rotateX(6deg);
   }
+
   92% {
     transform: rotateX(-3deg);
   }
+
   100% {
     transform-origin: top center;
     transform: rotateX(0deg);
   }
 }
 
-main .works .works-field .col:last-child .row .btn{
-    margin-top: 30px;
+main .works .works-field .col:last-child .row .btn {
+  margin-top: 30px;
 }
 
-main .testominal{
-  padding: 20px 0 0 ;
+main .testominal {
+  padding: 20px 0 0;
   background: var(--opacity-green-bg);
 }
 
-main .testominal .testominal_header{
+main .testominal .testominal_header {
   width: 60%;
   margin: 0 auto;
   text-align: center;
 }
 
-main .testominal .testominal_header h1{
+main .testominal .testominal_header h1 {
   padding: 20px 0;
 }
 
-main .testominal .testominal_header .text{
+main .testominal .testominal_header .text {
   padding: 0 80px;
 }
 
-main .testominal .testominal-field{
+main .testominal .testominal-field {
   position: relative;
   width: 60%;
   margin: 30px 0 30px auto;
   background: var(--white-color);
 }
 
-main .testominal .testominal-field img{
+main .testominal .testominal-field img {
   position: absolute;
   left: -10%;
   width: 20%;
 }
 
-main .testominal .testominal-field .box{
+main .testominal .testominal-field .box {
   position: relative;
   left: 15%;
   width: 60%;
   padding: 30px 0;
 }
 
-main .testominal .testominal-field.d-flex{
+main .testominal .testominal-field.d-flex {
   justify-content: start;
 }
 
-main .testominal .testominal-field .box .card img{
+main .testominal .testominal-field .box .card img {
   position: static;
   width: 15%;
 }
 
-main .testominal .testominal-field .box .card .card-info{
+main .testominal .testominal-field .box .card .card-info {
   width: 85%;
 }
 
-main .use_service{
+main .use_service {
   width: 100%;
 }
 
-main .use_service_field h1{
+main .use_service_field h1 {
   text-align: center;
   padding: 0 200px;
 }
 
-main .use_service_field .text{
+main .use_service_field .text {
   text-align: center;
   padding: 5px 30px;
 }
+
 main .use_service_field form,
-main .use_service_field form .input{
+main .use_service_field form .input {
   justify-content: center;
   flex-direction: column;
   gap: 0;
 }
-main .use_service_field form{
+
+main .use_service_field form {
   gap: 10px;
   padding: 30px 0;
 }
-main .use_service_field form .input{
+
+main .use_service_field form .input {
   width: 35%;
   margin: 0 auto;
   align-items: start;
 }
 
-main .use_service_field form .input label{
-  /* border: 1px solid; */
+main .use_service_field form .input label {
   font-size: 1rem;
   padding: 5px 0;
 }
 
-main .use_service_field form .input input{
+main .use_service_field form .input input {
   width: 100%;
   border: none;
   outline: none;
-  padding: 10px 20px;
+  padding: 15px 20px;
   background: var(--input-bg-color);
 }
 
-main .use_service_field form .input .btn{
+main .use_service_field form .input .btn {
   width: 100%;
   border-radius: 5px;
 }
 
-footer{
-  background:  #25322E;
+footer {
+  background: #25322E;
 }
 
-footer p{
+footer p {
   color: var(--white-color);
   margin: 10px 0;
 }
-footer .footer-field{
+
+footer .footer-field {
   padding: 30px 0;
 }
-footer .footer-field img{
+
+footer .footer-field img {
   width: 60%;
 }
 
-footer .footer-field img:last-child{
+footer .footer-field img:last-child {
   margin: 30px 0 0;
 }
 
-footer .footer-field .row{
+footer .footer-field .row {
   justify-content: space-around;
   gap: 0px;
 }
 
-footer .footer-field .row ul li{
+footer .footer-field .row ul li {
   padding: 10px 0;
 }
 
-footer .footer-field .row ul li a{
+footer .footer-field .row ul li:first-child a {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+footer .footer-field .row ul li a {
   color: var(--white-color);
 }
 
-footer .footer_author{
+footer .footer_author {
   padding: 5px 0;
   background: #1C2D29;
 }
 
-footer .footer_author p{
+footer .footer_author p {
   font-size: .8rem;
+  text-align: center;
+
+}
+
+@media screen and (min-width:500px) and (max-width:1200px) {
+  .__app {
+    max-width: 100%;
+  }
+
+  .container {
+    max-width: 95%;
+  }
+
+  header .header .container .navbar {
+    display: none;
+  }
+
+  .header::before {
+    top: -35%;
+    left: -25%;
+    rotate: -12.5deg;
+  }
+
+  .row {
+    width: calc(100% / var(--count-box));
+  }
+
+  header .field {
+    padding: 10px 0;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+    font-family: sans-serif;
+  }
+
+  /* header .header .header-field .field {
+    flex-wrap: wrap;
+  } */
+
+  main .features .features-field .field {
+    padding: 0;
+  }
+  header .help_ways {
+    text-align: center;
+    padding: 0 0px;
+  }
+
+  main .features .features-statistics {
+    padding: 0 60px;
+  }
+
+  main .features .features-statistics-field {
+    flex-wrap: wrap;
+    gap: 0;
+  }
+  main .features .features-statistics .row {
+    padding: 30px 20px;
+  }
+
+  main .testominal .testominal-field {
+    gap: 0;
+    padding: 20px 0;
+  }
+  
+  main .testominal .testominal-field img {
+    position: relative;
+    width: 30%;
+    padding-top: 10px;
+  }
+
+  
+  main .testominal .testominal-field .box {
+    position: relative;
+    left: 0;
+    width: 70%;
+    padding: 0;
+  }
+
+  main .use_service_field form .input {
+    width: 50%;
+    margin: 0 auto;
+    align-items: start;
+  }
+  
+  footer .footer-field {
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: start;
+    gap: 30px;
+  }
+
+  footer .footer-field .row{
+    width: 30%;
+    gap: 20px;
+  }
+
+  footer .footer_author .container{
+    flex-direction: column-reverse;
+    gap: 0;
+  }
+}
+
+@media screen and (max-width:499px) {
+  .__app {
+    width: 100%;
+  }
+
+  .container {
+    width: 95%;
+  }
+
+  .header::before {
+    top: -25%;
+    left: -25%;
+    rotate: -10deg;
+  }
+
+  .row {
+    width: 100%;
+  }
+
+  header .header .container .navbar {
+    display: none;
+  }
+
+  header .field {
+    padding: 10px 0;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+    font-family: sans-serif;
+  }
+
+  .text {
+    font-size: .8rem;
+  }
+
+  header .header .header-field .field {
+    flex-direction: column;
+  }
+
+  header .header-field .field .row {
+    width: 100%;
+  }
+
+  header .header .header-field .field .row h1,
+  header .header .header-field .field .row h1 span {
+    font-size: 2.4rem;
+    font-family: sans-serif;
+  }
+
+  header .help_ways {
+    text-align: center;
+    padding: 0 0px;
+  }
+
+  main .features .features-field .field {
+    padding: 0;
+  }
+
+  main .features .features-field::before {
+    height: 55%;
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+  }
+
+  main .features .features-field .field .navbar li {
+    width: 25%;
+  }
+
+  main .features .features-field .field .navbar li a {
+    font-size: .7rem;
+  }
+
+  main .features .features-statistics {
+    padding: 0;
+  }
+
+  main .features .features-statistics-field {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  main .features .features-statistics .row {
+    padding: 26px 0;
+  }
+
+  main .works .works-field .col {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  main .works .works-field .col .row .text {
+    width: 100%;
+    font-size: 1rem;
+    padding: 20px 0;
+  }
+
+  main .works .works-field .col:last-child {
+    flex-direction: column;
+  }
+
+  main .works .works-field .col .row .img {
+    height: 450px;
+    width: 100%;
+  }
+
+  main .testominal .testominal_header {
+    width: 95%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  main .testominal .testominal_header .text {
+    padding: 0px;
+  }
+
+  main .testominal .testominal-field {
+    position: relative;
+    width: 100%;
+    margin: 30px 0 30px auto;
+    padding: 0 5px;
+    background: var(--white-color);
+    flex-direction: column;
+  }
+
+  main .testominal .testominal-field img {
+    position: static;
+    width: 95%;
+    padding-top: 10px;
+  }
+
+  main .testominal .testominal-field .box {
+    position: static;
+    width: 95%;
+    padding: 0;
+  }
+
+  main .use_service_field h1 {
+    padding: 0 0px;
+  }
+
+  main .use_service_field form .input {
+    width: 95%;
+    margin: 0 auto;
+    align-items: start;
+  }
+
+  footer .footer-field {
+    flex-direction: column;
+    gap: 0;
+  }
+  footer .footer-field .row{
+    width: 100%;
+  }
+  footer .footer-field img {
+    width: 50%;
+  }
+
+  footer .footer_author .container{
+    flex-direction: column-reverse;
+    gap: 0;
+  }
 }
